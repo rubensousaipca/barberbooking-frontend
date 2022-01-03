@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { 
     Container,
     InputArea,
@@ -17,13 +17,29 @@ import SignInput from "../../components/SignInput";
 
 
 export default () => {
+
+    const [emailField, setEmailField] = useState ('');
+    const [passwordField, setPasswordField] = useState ('');
+
     return(
         <Container>
             <BarberLogo width="100%" height="160"/>
 
             <InputArea>
-                <SignInput IconSvg={EmailIcon}/>
-                <SignInput IconSvg={LockIcon}/>
+                <SignInput 
+                IconSvg={EmailIcon}
+                placeholder= "Digite o seu e-mail..."
+                value = {emailField}
+                onChangeText={t=>setEmailField(t)}
+                />
+
+                <SignInput 
+                IconSvg={LockIcon}
+                placeholder= "Digite a sua palavra-passe..."
+                value = {passwordField}
+                onChangeText={t=>setPasswordField(t)}
+                password={true}
+                />
 
             <CustomButton>
                 <CustomButtonText>Login</CustomButtonText>
