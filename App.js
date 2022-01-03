@@ -7,7 +7,7 @@ export default () => {
   return(
     <UserContextProvider>
       <NavigationContainer>
-        <MainStack />
+          <MainStack />
       </NavigationContainer>
     </UserContextProvider>
   );
