@@ -14,7 +14,7 @@ export default () => {
         const checkToken = async () => {
             const token = await AsyncStorageLib.getItem('token');
             if (token) {
-                //validar o token
+                //validar o token de entrar
             } else {
                 navigation.navigate('SignIn');
             }
