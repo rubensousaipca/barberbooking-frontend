@@ -35,7 +35,7 @@ export default () => {
                     //navigation.navigate('SignIn')
                //} 
             } else {
-                navigation.navigate('SignIn');
+                navigation.navigate('MainTab');
             }
         }
         checkToken();
