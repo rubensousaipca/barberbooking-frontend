@@ -9,7 +9,10 @@ import Profile from '../screens/Profile';
 
 const Tab = createBottomTabNavigator();
 
+//Barra de navegação da HomePage
+
 export default () => (
+
     <Tab.Navigator>
         <Tab.Screen name="Home" component={Home} />
         <Tab.Screen name="Search" component={Search} />
