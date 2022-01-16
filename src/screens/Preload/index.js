@@ -4,7 +4,9 @@ import AsyncStorageLib from "@react-native-async-storage/async-storage";
 import { useNavigation } from "@react-navigation/native";
 
 import { UserContext } from '../../contexts/UserContext'
+
 //Importar Api
+
 import BarberLogo from '../../assets/barber.svg'
 
 export default () => {
@@ -35,7 +37,7 @@ export default () => {
                     //navigation.navigate('SignIn')
                //} 
             } else {
-                navigation.navigate('SignIn');
+                navigation.navigate('MainTab');
             }
         }
         checkToken();

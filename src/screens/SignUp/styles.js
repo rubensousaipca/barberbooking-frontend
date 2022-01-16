@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components/native';
+import styled from 'styled-components';
 
 export const Container = styled.SafeAreaView`
     background-color: #63C2D1;
@@ -20,6 +20,7 @@ export const CustomButton = styled.TouchableOpacity`
     justify-content: center;
     align-items: center;
 `;
+
 export const CustomButtonText = styled.Text`
     font-size: 18px;
     color: #FFF;
