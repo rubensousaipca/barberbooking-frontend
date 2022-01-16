@@ -1,4 +1,4 @@
-export const InitialState = {
+export const initialState = {
     avatar: '',
     favorites: [],
     appointments: []
@@ -7,7 +7,7 @@ export const InitialState = {
 export const UserReducer = (state, action) => {
     switch(action.type) {
         case 'setAvatar':
-            return {...state, avatar: action.payload.avatar };
+            return { ...state, avatar: action.payload.avatar };
         break;
         default:
             return state;
