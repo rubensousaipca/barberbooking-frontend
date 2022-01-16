@@ -8,7 +8,7 @@ import {
 } from './styles';
 
 import AppointmentItem from '../../components/AppointmentItem';
-import Api from '../../Api';
+//import Api from '../../Api';
 
 export default () => {
 
