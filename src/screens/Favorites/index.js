@@ -11,7 +11,7 @@ import {
 } from './styles';
 
 import BarberItem from '../../components/BarberItem';
-import Api from '../../Api';
+//import Api from '../../Api';
 
 export default () => {
 
@@ -26,12 +26,12 @@ export default () => {
         setLoading(true);
         setList([]);
 
-        let res = await Api.getFavorites();
+        /*let res = await Api.getFavorites();
         if(res.error == '') {
             setList(res.list);
         } else {
             alert("Erro: "+res.error);
-        }
+        }*/
 
         setLoading(false);
     }
