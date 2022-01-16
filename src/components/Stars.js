@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components/native';
+import styled from 'styled-components';
 
 import StarFull from '../assets/star.svg';
 import StarHalf from '../assets/star_half.svg';

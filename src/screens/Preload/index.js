@@ -6,6 +6,7 @@ import { useNavigation } from "@react-navigation/native";
 import { UserContext } from '../../contexts/UserContext'
 
 //Importar Api
+//import Api from '../../Api';
 
 import BarberLogo from '../../assets/barber.svg'
 
