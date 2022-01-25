@@ -15,10 +15,16 @@ export default () => {
         });
     }*/
 
-    return (
+    /*return (
         <Container>
             <Text>Profile</Text>
             <Button title="Sair" onPress={handleLogoutClick} />
+        </Container>
+    );*/
+
+    return (
+        <Container>
+            <Text>Profile</Text>
         </Container>
     );
 }

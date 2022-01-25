@@ -302,7 +302,7 @@ export default ({ show, setShow, user, service }) => {
                         <ModalItem>
                             <ServiceInfo>
                                 <ServiceName>{user.services[service].name}</ServiceName>
-                                <ServicePrice>R$ {user.services[service].price.toFixed(2)}</ServicePrice>
+                                <ServicePrice>€ {user.services[service].price.toFixed(2)}</ServicePrice>
                             </ServiceInfo>
                         </ModalItem>
                     }
