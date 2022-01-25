@@ -68,7 +68,7 @@ export default ({data}) => {
 
             <SplitArea>
                 <ServiceText>{data.service.name}</ServiceText>
-                <ServiceText>R$ {data.service.price.toFixed(2)}</ServiceText>
+                <ServiceText>€ {data.service.price.toFixed(2)}</ServiceText>
             </SplitArea>
 
             <SplitArea>

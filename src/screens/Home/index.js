@@ -102,9 +102,9 @@ export default () => {
     }
     
     //NO API (Linha 125)
-    <LocationFinder onPress={handleLocationFinder}>
-                        <MyLocationIcon width="24" height="24" fill="#FFFFFF" />
-                    </LocationFinder>
+    <LocationFinder>
+        <MyLocationIcon width="24" height="24" fill="#FFFFFF" />
+    </LocationFinder>
     */
 
     return (
